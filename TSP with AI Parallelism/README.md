@@ -38,6 +38,11 @@ This project demonstrates solving the Traveling Salesman Problem (TSP) using Sim
 - The results include the best path, total steps taken, the total distance covered, and the time taken.
 - The map showing the best route will be saved as `tsp_solution_map.html`.
 
+## Visualization & Route Planning
+We provided students with a map showing city connections and travel costs. Students calculated total route costs manually and programmatically.
+<img src="./citymap.png" alt="City Map(1).png" width="400"/>
+
+
 ---
 
 Feel free to add or modify any section as needed!
