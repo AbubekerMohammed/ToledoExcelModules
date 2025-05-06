@@ -1,45 +1,56 @@
-
 # Parallel and Heterogeneous Computing Modules
 
-This repository contains educational modules developed and used during the 2023 and 2024 Toledo Excel summer workshops. These modules provide hands-on experiences with:
+This repository contains three educational modules designed for high school and early college students to explore real-world applications of **parallel**, **heterogeneous**, and **GPU-accelerated computing**. These were developed and deployed during the 2024 Toledo Excel summer workshops.
 
-- **Edge computing** (Nvidia Jetson Nano & Jetson TX2)
-- **Cloud computing** (AWS EC2 GPU instances)
-- **Parallel and heterogeneous programming** (Google Colab, multiprocessing, OpenMP)
-- **Real-world applications** such as object detection and the Traveling Salesman Problem (TSP)
-
-Each module is designed to teach high school and early college students about scalable computation, GPU acceleration, and how parallelism improves performance.
+Each module provides hands-on activities, guided exploration, and opportunities to learn about AI, optimization, cloud computing, and edge hardware platforms.
 
 ---
 
-## 📁 Module Directory
+## 📁 Project Modules
 
-- [`/TSP-AI-Parallelism`](./TSP-AI-Parallelism)  
-  → Learn TSP with simulated annealing, multiprocessing, and visual maps.
+### 🔁 [`/TSP-AI-Parallelism`](./TSP-AI-Parallelism)
 
-- [`/Jetson-Nano-Module`](./Jetson-Nano-Module)  
-  → Work with Jetson Nano to run object detection on edge devices.
+> **Topic**: Optimization + Multiprocessing  
+> **Project**: Solve the Traveling Salesman Problem (TSP) using simulated annealing, brute-force search, and multiprocessing.  
+> **Outcome**: Learn performance scaling by adjusting core counts and algorithm strategies.
 
-- [`/DeepWeeds-Cloud-Edge`](./DeepWeeds-Cloud-Edge)  
-  → Deploy and compare deep learning models on AWS EC2 and Jetson TX2.
+### 🖥️ [`/Jetson-Nano-Module`](./Jetson-Nano-Module)
+
+> **Topic**: Edge Computing + Object Detection  
+> **Project**: Deploy HelloAI object detection models on the NVIDIA Jetson Nano using JetPack and Docker.  
+> **Outcome**: Understand GPU acceleration and edge AI processing through visual demos.
+
+### ☁️ [`/DeepWeeds-Cloud-Edge`](./DeepWeeds-Cloud-Edge)
+
+> **Topic**: Cloud + Edge Deep Learning  
+> **Project**: Classify weed species using deep learning models like ResNet on AWS EC2 (GPU) and Jetson TX2 (edge).  
+> **Outcome**: Learn cloud deployment, GPU scaling, and performance trade-offs between cloud and edge devices.
 
 ---
 
-## 🧠 Learning Goals
+## 🧠 Key Learning Goals
 
-- Understand parallel computing concepts like task decomposition and core/thread scaling
-- Explore the difference between edge and cloud-based execution
-- Apply AI models to real-world problems using GPUs and CPUs
-- Measure speedups, scalability, and resource efficiency
+- Understand **parallel processing** concepts (task division, speedup)
+- Learn how to use **CPUs vs GPUs** for performance optimization
+- Gain hands-on experience with **cloud platforms** (AWS EC2) and **edge devices** (Jetson Nano/TX2)
+- Practice deploying **AI applications** using Python, Docker, OpenMP, and multiprocessing
+- Develop technical confidence through interactive, visual, and measurable results
 
 ---
 
-## 🚀 How to Use
+## 🚀 How to Get Started
 
 Each folder contains:
 
-- A dedicated `README.md` file explaining the module
-- Required setup instructions
-- Activities, diagrams, and sample output
+- 📄 A dedicated `README.md` file with setup, diagrams, and examples
+- 🧪 Jupyter notebooks, scripts, or Docker files
+- 🛠️ Setup and dependency instructions
 
-Feel free to start with any module depending on your interests or available hardware!
+You can start with any module based on your interest or available hardware.
+
+---
+
+
+## 📚 License
+
+Feel free to use, adapt, and share for teaching and learning purposes.
