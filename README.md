@@ -8,23 +8,24 @@ Each module provides hands-on activities, guided exploration, and opportunities 
 
 ## 📁 Project Modules
 
-### 🔁 [`/TSP-AI-Parallelism`](./TSP-AI-Parallelism)
+### 🔁 [`/TSP with AI Parallelism`](./TSP%20with%20AI%20Parallelism/README.md)
 
 > **Topic**: Optimization + Multiprocessing  
 > **Project**: Solve the Traveling Salesman Problem (TSP) using simulated annealing, brute-force search, and multiprocessing.  
 > **Outcome**: Learn performance scaling by adjusting core counts and algorithm strategies.
 
-### 🖥️ [`/Jetson-Nano-Module`](./Jetson-Nano-Module)
+### 🖥️ [`/Nvidia Jetso Nano`](./Nvidia%20Jetso%20Nano/README.md)
 
 > **Topic**: Edge Computing + Object Detection  
 > **Project**: Deploy HelloAI object detection models on the NVIDIA Jetson Nano using JetPack and Docker.  
 > **Outcome**: Understand GPU acceleration and edge AI processing through visual demos.
 
-### ☁️ [`/DeepWeeds-Cloud-Edge`](./DeepWeeds-Cloud-Edge)
+### ☁️ [`/DeepWeeds With Jetson TX2 & AWS EC2 Instances`](./DeepWeeds%20With%20Jetson%20TX2%20%26%20AWS%20EC2%20Instances/README.md)
 
 > **Topic**: Cloud + Edge Deep Learning  
 > **Project**: Classify weed species using deep learning models like ResNet on AWS EC2 (GPU) and Jetson TX2 (edge).  
 > **Outcome**: Learn cloud deployment, GPU scaling, and performance trade-offs between cloud and edge devices.
+
 
 ---
 
