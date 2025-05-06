@@ -142,10 +142,10 @@ This command builds the Docker container using the provided `Dockerfile`.
 - **NVIDIA GPU** with Docker and CUDA support for x86_64 systems.
 - Optional: ROS/ROS2 support for ROS-based projects.
 
-<img src="./Jetson_Nano_Setup.jpeg" alt="Jetson Nano Setup" width="400"/>
+<img src="./Jetson_Nano_Setup.jpeg" alt="Jetson Nano Setup" width="650"/>
 *Jetson Nano Setup Overview*
 
-<img src="./workshop.png" alt="Jetson Nano Workshop" width="400"/>
+<img src="./workshop.png" alt="Jetson Nano Workshop" width="650"/>
 *Student Workshop in Action*
 
 ---
