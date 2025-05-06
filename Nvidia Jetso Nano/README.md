@@ -10,8 +10,6 @@ This guide provides instructions on how to run and build the **jetson-inference*
 - [System Requirements](#system-requirements)
 - [Optional: ROS Support](#ros-support)
 - [Running Example Applications](#running-applications)
-- [Optional: Building the Docker Container](#building-the-container)
-- [Optional: Installing PyTorch](#installing-pytorch)
 
 ---
 
