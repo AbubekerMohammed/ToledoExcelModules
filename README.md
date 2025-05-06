@@ -14,7 +14,7 @@ Each module provides hands-on activities, guided exploration, and opportunities 
 > **Project**: Solve the Traveling Salesman Problem (TSP) using simulated annealing, brute-force search, and multiprocessing.  
 > **Outcome**: Learn performance scaling by adjusting core counts and algorithm strategies.
 
-### 🖥️ [`/Nvidia Jetso Nano`](./Nvidia%20Jetso%20Nano/README.md)
+### 🖥️ [`/Nvidia Jetson Nano`](./Nvidia%20Jetso%20Nano/README.md)
 
 > **Topic**: Edge Computing + Object Detection  
 > **Project**: Deploy HelloAI object detection models on the NVIDIA Jetson Nano using JetPack and Docker.  
