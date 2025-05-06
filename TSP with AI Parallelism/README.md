@@ -39,9 +39,39 @@ This project demonstrates solving the Traveling Salesman Problem (TSP) using Sim
 - The map showing the best route will be saved as `tsp_solution_map.html`.
 
 ## Visualization & Route Planning
-We provided students with a map showing city connections and travel costs. Students calculated total route costs manually and programmatically.
-<img src="./citymap.png" alt="City Map(1).png" width="400"/>
+To help students understand the complexity of the Traveling Salesman Problem (TSP), they were provided with a city map and asked to calculate the total cost of traveling through different routes. This allowed them to see how the order of cities affects the total cost.
+<img src="./City Map(1).png" alt="City Map.png" width="400"/>
 
+## 📊 Route Cost Table
+| Route  | Total Cost of Travelling |
+|--------|---------------------------|
+| ABCDA  | 3 (A→B) + 1 (B→C) + 5 (C→D) + 6 (D→A) = 15 |
+| ABDCA  | 3 (A→B) + 4 (B→D) + 5 (D→C) + 2 (C→A) = 14 |
+| ACDBA  | 2 (A→C) + 5 (C→D) + 4 (D→B) + 3 (B→A) = 14 |
+| ACBDA  | 2 (A→C) + 1 (C→B) + 4 (B→D) + 6 (D→A) = 13 |
+| ADCBA  | 6 (A→D) + 5 (D→C) + 1 (C→B) + 3 (B→A) = 15 |
+| ADBCA  | 6 (A→D) + 4 (D→B) + 1 (B→C) + 2 (C→A) = 13 |
+
+
+## ⚙️ Time vs. Number of Cores
+| Number of Cores | Time Taken (s) |
+|------------------|----------------|
+| 1                | Time1          |
+| 2                | Time2          |
+| 4                | Time3          |
+| 16               | Time4          |
+| 32               | Time5          |
+
+
+## ⚡ GPU Thread Performance
+| Thread Count | Time Taken (s) |
+|--------------|----------------|
+| 1            | Time1          |
+| 2            | Time2          |
+| 12           | Time3          |
+| 32           | Time4          |
+| 64           | Time5          |
+| 128          | Time6          |
 
 ---
 
